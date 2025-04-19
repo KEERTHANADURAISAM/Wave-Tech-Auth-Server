@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const serverless = require('serverless-http'); // ✅ use require here
 const cors = require('cors');
 
-const authRoutes = require('../Routes/authRoutes.js');
+const authRoutes = require('./Routes/authRoutes.js');
 
 dotenv.config();
 
